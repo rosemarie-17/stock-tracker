@@ -1,0 +1,69 @@
+body {
+    background-color: #819fa7;
+    color: #f2efea;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to bottom, #bde8f1, #f2efea);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin: 5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    text-align: center;
+    color: #f2efea;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#buy-stocks-button {
+  background-color: rgba(51, 51, 51, 0.25);
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#symbol-input {
+    color: #0d0d0d;
+    font-size: 14px;
+    padding: 10px 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#shares-input {
+    color: #0d0d0d;
+    font-size: 14px;
+    padding: 10px 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#balance-dispaly {
+    margin: 20px;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    color: rgba(242, 239, 234, 1);
+    background-color: rgba(242, 239, 234, 1);
+}
